@@ -297,7 +297,9 @@ p.quote{
 /*end: product grid*/
 
 /*start: Login*/
- .form-signin-wrapper{background: #2196f3 !important;}
+ .form-signin-wrapper{
+   background: #FFFFFF;
+  }
  .form-signin{
          max-width: 330px;
          padding: 15px;
@@ -1106,7 +1108,7 @@ ul li a:focus {
   .label-default,
   .alert-default,
   .badge-default {
-    color: #857E7E !important;
+    color: #000000 !important;
     border: none !important;
     background-color: #fff !important;
   }
@@ -1836,7 +1838,7 @@ ul li a:focus {
   .navbar-header .search .form-animate-text .form-text:focus ~ .label-search,.form-text:valid ~ .label-search {
     top: -50px !important;
     font-size: 14px;
-    color: #0c66ae !important;
+    color: #F2F2F2 !important;
   }
 
   .navbar .search .form-animate-text .form-text{

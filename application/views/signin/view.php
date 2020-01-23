@@ -35,7 +35,7 @@
       <![endif]-->
       <style type="text/css">
         .judul{
-          font-size: 80px;
+          font-size: 40px;
         }
       </style>
     </head>
@@ -47,8 +47,7 @@
         <form class="form-signin" method="post" action="<?= site_url() ?>sign_in/proses">
           <div class="panel periodic-login">
               <div class="panel-body text-center">
-                  <h1 class="judul">SignIn</h1>
-                  <i class="icons icon-arrow-down"></i>
+                  <h1 class="judul">Login Page</h1>
                   <div class="form-group form-animate-text" style="margin-top:40px !important;">
                     <input type="text" name="user" class="form-text" required>
                     <span class="bar"></span>
