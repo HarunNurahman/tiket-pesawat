@@ -18,7 +18,7 @@
       <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/plugins/animate.min.css"/>
       <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/plugins/fullcalendar.min.css"/>
       <link rel="stylesheet" type="text/css" href="<?= base_url();?>assets/css/plugins/datatables.bootstrap.min.css"/>
-  <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet">
+  <!-- <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet"> -->
   <!-- end: Css -->
 
   <link rel="shortcut icon" href="<?= base_url(); ?>assets/img/logomi.png">
@@ -37,7 +37,7 @@
                 <a href="" class="navbar-brand"> 
                  <b>TIKETING PESAWAT</b>
                 </a>
-                 <button class="bnt btn-default pull-right" id="login"><i class="fa fa-user"></i> Login</button>
+                <p class="navbar-text navbar-right"><a href="<?= base_url('sign_in/p') ?>" class="navbar-link">Login here</a></p>
             </div>
           </div>
         </nav>

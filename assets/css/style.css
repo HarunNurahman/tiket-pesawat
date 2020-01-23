@@ -592,31 +592,6 @@ p.quote{
   background-color: #f4f4f4;
   color: #BBB1B1;
 }
-
-.form-control.android[type='text'],
-.form-control.android[type='password'] {
-  width: 100%%;
-  font-family: "Roboto", "Droid Sans", sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 8px 8px 6px 8px;
-  position: relative;
-  display: block;
-  outline: none;
-  border: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  -o-box-shadow: none;
-  box-shadow: none;
-  background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
-  -webkit-background-size: 1px 6px, 1px 1px, 1px 6px;
-  -moz-background-size: 1px 6px, 1px 1px, 1px 6px;
-  -ms-background-size: 1px 6px, 1px 1px, 1px 6px;
-  -o-background-size: 1px 6px, 1px 1px, 1px 6px;
-  background-size: 1px 6px, 1px 1px, 1px 6px;
-}
-
 .form-control.android[type='text']:hover,
 .form-control.android[type='password']:hover,
 .form-control.android[type='text']:focus,
@@ -3001,38 +2976,6 @@ ul li a:focus {
   transform: rotate(55deg);
 }
 
-.rainy .shadow {
-  height: 10px;
-  width: 60px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  background-color: #C4EDFF;
-  -webkit-transition: height .25s ease, width .25s ease;
-  -moz-transition: height .25s ease, width .25s ease;
-  -ms-transition: height .25s ease, width .25s ease;
-  -o-transition: height .25s ease, width .25s ease;
-  transition: height .25s ease, width .25s ease;
-  -webkit-transition: height .25s ease, width .25s ease;
-  -moz-transition: height .25s ease, width .25s ease;
-  -ms-transition: height .25s ease, width .25s ease;
-  -o-transition: height .25s ease, width .25s ease;
-  transition: height .25s ease, width .25s ease;
-  -webkit-transform: transform: translate(-50%, -50%);
-  -moz-transform: transform: translate(-50%, -50%);
-  -ms-transform: transform: translate(-50%, -50%);
-  -o-transform: transform: translate(-50%, -50%);
-  transform: transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  margin-top: 90px;
-  margin-left: 50px;
-}
 
 .rainy .shadow:before,
 .rainy .shadow:after {
